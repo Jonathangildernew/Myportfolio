@@ -30,7 +30,6 @@ border-radius: 50%;
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -172,6 +171,8 @@ header {
   height:40px;
   background-color: gold;
   bottom:10rem;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .front-port-btn2{
@@ -183,7 +184,11 @@ header {
   background-color:whitesmoke;
   bottom:10rem;
   left: 5rem;
+  cursor: pointer;
+  border-radius: 10px;
 }
+
+.front-port-btn:hover, .front-port-btn2:hover {background-color: deepskyblue;}
 
 .icons{
   bottom:100px;
